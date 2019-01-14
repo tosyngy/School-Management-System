@@ -1,0 +1,75 @@
+
+/*@import "compass/css3";*/
+.table-editable {
+    position: relative;
+    clear: both;
+    .glyphicon {
+        font-size: 14px;
+    }
+}
+
+.table-remove {
+    color: #700;
+    cursor: pointer;
+
+    &:hover {
+        color: #f00;
+    }
+}
+
+.table-up, .table-down {
+    color: #007;
+    cursor: pointer;
+
+    &:hover {
+        color: #00f;
+    }
+}
+
+.table-add {
+    color: #070;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 0;
+
+    &:hover {
+        color: #0b0;
+    }
+
+}
+input {
+    height: 30px !important;
+    width: 98% !important;
+    font-size: 12px !important;
+    margin-bottom: 20px;
+}
+.btn {
+    font-size: 14px !important;
+      padding: 5px 2px;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+td{
+      font-size: 12px !important; 
+      overflow: 
+}
+th{
+      font-size: 12px !important; 
+}
+.grade td{
+    background-color: #f0f0f0;
+}
+.single td{
+    background-color: #00fff0;
+    margin: 2px;
+}
+.container.pad-lit{
+    padding: 20px !important;
+    width: 100%;
+}
+.nopad{
+    padding: 0;
+}

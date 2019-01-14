@@ -1,0 +1,199 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 4, 2015, 11:41:40 AM
+    Author     : ayoade
+*/
+
+*{
+    -webkit-transition: .2s all ease-in-out;
+    -moz-transition: .2s all ease-in-out;
+    -o-transition: .2s all ease-in-out;
+    -ms-transition: .2s all ease-in-out;
+    transition: .2s all ease-in-out;
+}
+body{
+    background-color: #2A2B35;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #0072b5;
+    margin-bottom: 10px;
+}
+.alpha {
+    padding-top: 10px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+    margin-left: -11px;
+}
+ol.alpha li {
+    margin-bottom: 3px;
+    margin-right: 3px;
+    float: left;
+}
+.alpha li a {
+    text-decoration: none;
+    color: rgb(67, 67, 124);
+    display: block;
+    font-size: 16px;
+    float: left;
+    min-width: 40px;
+    text-align: center;
+    border: 1px solid #e3e3e0;
+    -webkit-transition: background 0.5s linear 0s, color 0.5s linear 0s;
+    -moz-transition: background 0.5s linear 0s, color 0.5s linear 0s;
+    -o-transition: background 0.5s linear 0s, color 0.5s linear 0s;
+    -ms-transition: background 0.5s linear 0s, color 0.5s linear 0s;
+    transition: background 0.5s linear 0s, color 0.5s linear 0s;
+}
+ol.alpha li a:hover {
+    color: #E9EAED;
+    background: #777777;
+    border: 1px solid #1c94c4;
+}
+#p1{
+    border-radius: 0px;
+}
+.adv-sea{
+    min-height: 580px;
+}
+.result{
+    min-height: 800px;
+}
+.ac-txt{
+    font-size:  10.6px;
+    cursor: pointer;
+    background-color: rgb(253, 253, 253);
+    cursor: pointer;
+    color: #2A2B35;
+    border-bottom: 1px #ccc solid;
+    height: 30px;
+    padding: 7px;
+    -webkit-transition: background-color 0.5s linear 0s;
+    -moz-transition: background-color 0.5s linear 0s;
+    -o-transition: background-color 0.5s linear 0s;
+    -ms-transition: background-color 0.5s linear 0s;
+    transition: background-color 0.5s linear 0s;
+}
+.ac-txt:hover{
+    background-color: rgb(231, 231, 231);
+}
+.switch{
+    background-color: rgba(10, 11, 11, 0.57);
+    color: #fff;
+}
+.panel .panel-default{
+    border-radius: 0px! important;
+    border: 0px! important;
+    box-shadow: none! important;
+    cursor: pointer;
+}
+.panel-heading{
+    border-radius: 0px;
+}
+.panel-default > .panel-heading{
+    background-color: #009688 !important;
+    color: #fff;
+    cursor: pointer;
+}
+.panel-default .panel-title{
+    font-size: 13px! important;
+    font-weight: 100! important;
+}
+.panel-title a{
+    transition: color 0.5s linear 0s;
+}
+.panel-title a:hover{
+    text-decoration: none;
+    color: #000;
+}
+.panel-collapse > .panel-body{
+    padding: 0px! important;
+}
+.caret{
+    margin-top: 5px! important;
+}
+.filter-field{
+    min-height: 96px;
+}
+.map{
+    border: 1px #ccc solid;
+    height: 200px;
+    border-radius: 4px;
+}
+.go-btn{
+    margin-top: 10px;
+    border-radius: 0px;
+}
+.res-thum{
+    height: 150px;
+    width: 100px;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    cursor: pointer;
+    transition:box-shadow 0.5s linear 0s;
+    float: left;
+margin-right: 12px;
+margin-bottom: 12px;
+}
+.res-thum:hover{
+    box-shadow: 0px 0px 10px 0px;
+}
+.pic{
+    width: 85%;
+    margin-left: 7px;
+    border: 3px #D9EDF7 solid;
+}
+.sea-spe, .sea-add, .sea-name{
+    font-size: 10.5px;
+    text-align: center;
+}
+.nav>li>a{
+    padding: 3px 3px;
+}
+.nav-tabs>li>a{
+    border-radius: 0px 0px 4px 4px;
+    border: 1px solid rgb(0, 114, 181);
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: #0072B5! important;
+    border: 1px solid #0072B5! important;
+}
+.res-main{
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    background-color: #009688;
+    left: 14%;
+    display: none;
+}
+.pic-big{
+    width: 100%;
+    border: 4px #ccc solid;
+}
+.sea-name-big, .sea-add-big, .sea-spe-big{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+.side-but{
+    border-radius: 0px! important; 
+}
+.det-act{
+    height: 100%;
+    background-color: rgb(42, 43, 53);
+}
+.counter{
+    position: absolute;
+margin-top: 11px;
+z-index: 9999;
+margin-left: 12px;
+font-weight: bold;
+font-size: 14px;
+color: red;
+}
